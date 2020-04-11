@@ -1,11 +1,11 @@
 # Site settings
-title: 小白的解救
+title: 萌新的进阶之路
 SEOTitle: 有一个萌新，有一个大神梦
 header-img: img/post-bg-desk.jpg
 email: yilingpupu@163.com
-description: "中西融合, 即学即会, 从此不再辛苦背单词"
-keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
-url: "https://klovien.github.io"          # your host, for absolute URL
+description: "一个萌新，努力在前端大门的试探"
+keyword: "JavaScript, js, 前端, vue, 前端学习"
+url: "https://nylpupu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
 
