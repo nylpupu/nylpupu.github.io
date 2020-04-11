@@ -7,7 +7,7 @@ description: "一个萌新，努力在前端大门的试探"
 keyword: "JavaScript, js, 前端, vue, 前端学习"
 url: "https://nylpupu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
+github_repo: "https://github.com/nylpupu/nylpupu.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
