@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      查找上级作用域
+subtitle:   查找上级作用域
+date:       2020-4-10
+author:     nylpupu
+header-img: img/post-bg-recitewords.jpg
+catalog: false
+tags:
+    - 随笔杂谈
+---
+
+## 查找上级作用域
+
+#### 如何查找当前作用域上一级作用域
+
+>看当前函数是在哪个作用域下定义的，那么他的上级作用域就是谁，和函数在哪里执行的没有任何关系
+
+```javascript
+案例一
+var num=12;
+function fn(){
+var num=120;
+return function(){
+console.log(num);
+};
+}
+var f=fn();
+f();
+>>120  上级作用域是绿色框
+~function(){
+var num=1200;
+f();
+>>120    上级作用域是绿色框
+}();
+```
+![案例一](https://img-blog.csdnimg.cn/20200412020401654.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lpbGluZ3B1cHU=,size_16,color_FFFFFF,t_70)
